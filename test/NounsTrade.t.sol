@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 import "forge-std/Test.sol";
 import "../src/NounsTrade.sol";
-import "../src/NounsToken.sol";
+import "./mock/NounsToken.sol";
 
 contract NounsTradeTest is Test {
     NounsToken public nounsToken;
